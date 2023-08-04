@@ -12,7 +12,7 @@ def convert():
         miles_to_kilometers(number_of_miles)
 
     except:
-        print("That's not a number. Try again")
+        print("That's not a number. Try again.")
         print()
         convert()
 
