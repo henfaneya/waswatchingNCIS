@@ -8,7 +8,7 @@ def miles_to_kilometers(miles):
 def convert():
     try:
         number_of_miles = int(input("Enter the number of miles driven: "))
-
+        print()
         miles_to_kilometers(number_of_miles)
 
     except:
